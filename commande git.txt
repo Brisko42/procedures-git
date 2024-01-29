@@ -1,0 +1,12 @@
+git config user.name "Brisko42"
+git config credential.username "Brisko42"
+git remote add origin +le lien de git
+	
+pour créer un repository sur ma machine : 
+echo "# procedures-git" >> README.md
+git init
+git add README.md
+git commit -m + un message qui decrit le push
+git branch -M main
+git remote add origin + le lien de git (adresse du repository de gith)
+git push -u origin main
